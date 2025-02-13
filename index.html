@@ -79,14 +79,14 @@
         yesButton.style.width = `${buttonWidth}px`;
         yesButton.style.fontSize = `${fontSize}px`; // Update font size
         if (noClickCount < 6) {
-          noButton.textContent = ["No", "Are you sure?", "Pookie please", "Don't do this to me :(", "You're breaking my heart", "I'm gonna cry..."][noClickCount];
+          noButton.textContent = ["No", "Please shona please", "Please gussa bhul jao na", "I'm sorry please", "I'll play guitar for you please", "I'll cry jaana please"][noClickCount];
         }
       }
     });
   
     yesButton.addEventListener('click', () => {
-      imageDisplay.src = './images/image7.gif'; // Change to image7.gif
-      valentineQuestion.textContent = "Yayyy!! :3"; // Change the question text
+      imageDisplay.src = './images/personalizedimg.gif'; // Change to image7.gif
+      valentineQuestion.textContent = "THANK YOIUUUU SHONNAAAAAA!! :3333 I'LL MEET YOU AT 9 PM TOMORROW NIGHT <333 (GOOGLE MEET YAYYY)"; // Change the question text
       responseButtons.style.display = 'none'; // Hide both buttons
       confetti(); // Trigger confetti animation
     });
